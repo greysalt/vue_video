@@ -19,5 +19,5 @@ npm run build --report
 ```
 # Demo
 
-> [entry](https://greysalt.github.io/vue_video/)
+> [entry](https://greysalt.github.io/vue_video/dist/index.html)
 
