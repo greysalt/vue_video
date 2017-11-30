@@ -26,7 +26,7 @@
 					class="tab"
 					:to="{name:'comment'}"
 					active-class="active"
-					tag="div"><a>评论</a></router-link>		
+					tag="div"><a>评论<span class="comment-count" v-show="videoComment.length > 0">{{ videoComment.length }}</span></a></router-link>		
 		</div>
 		
 		<!-- 相关视频 及 评论栏 -->
